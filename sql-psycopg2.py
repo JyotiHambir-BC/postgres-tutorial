@@ -18,7 +18,7 @@ cursor = connection.cursor()
 # Query 4 - Select only by "ArtistId" #51 from the "Artist" table
 # cursor.execute('SELECT * FROM "Artist" WHERE "ArtistId" = %s', [51])
 
-# # Query 5 - Select only the album with "ArtistId" #51 from the "Artist" table
+# Query 5 - Select only the album with "ArtistId" #51 from the "Artist" table
 # cursor.execute('SELECT * FROM "Album" WHERE "ArtistId" = %s', [51])
 
 # Query 6 - Select all tracks where the composer is "Queen" from the "Track" table
